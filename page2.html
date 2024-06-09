@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title>
+</head>
+<body>
+    <p id="p1">hello</p>
+    <p id="p2">mam</p>
+    <p class="p3">how</p>
+    <p  class="p3">are</p>
+    <p  class="p3">you</p>
+    <p  class="p3">know </p>
+    <p  class="p3">me</p>
+    <p  class="p3">my</p>
+    <p  class="p3">name</p>
+    <p  class="p3">hahaha</p>
+    <script>
+        var a=document.getElementById("p1")
+        console.log(a)
+        var b=document.getElementsByClassName("p3")
+        console.log(b)
+        var c=document.getElementsByTagName("p")
+        console.log(c)
+        var d=document.querySelector("#p2")
+        console.log(d)
+        var e=document.querySelectorAll("#p1","#p2",".p3")
+        console.log(e)
+    </script>
+</body>
+</html>

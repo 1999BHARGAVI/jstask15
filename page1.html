@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom methods</title>
+</head>
+<body>
+    <h1 id="headtag">women will be women</h1>
+    <h1 id="mm">hello </h1>
+    <h1 class="sup">hai</h1>
+    <h1 class="sup">mam</h1>
+    <h1>how</h1>
+    <h1>are</h1>
+    <h1>you</h1>
+    <h1>cherry</h1>
+    <h1>what</h1>
+    <h1>are doing</h1>
+    <p>men will be men</p>
+
+    <script>
+        var a=document.getElementById("headtag").innerText="hhiii"
+        console.log(a)
+        var b=document.getElementById("mm").innerHTML="kkkkkk"
+        console.log(b)
+        let c=document.getElementsByClassName("sup").textContent="uuuuu"  
+        console.log(c)  
+        let d=document.getElementsByTagName("h1") .value=45  
+        console.log(d)   
+        let e=document.querySelector(".sup")   
+        console.log(e)   
+        let f=document.querySelectorAll("p","h1")   
+        console.log(f)   
+
+
+ 
+    </script>
+</body>
+</html>
